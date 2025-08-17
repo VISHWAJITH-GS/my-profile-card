@@ -311,7 +311,7 @@ const ProfileCardComponent = ({
                 <div className="pc-user-details">
                   <div className="pc-mini-avatar">
                     <img
-                      src={miniAvatarUrl || avatarUrl}
+                      src={process.env.PUBLIC_URL + "/avatar.jpg"}
                       alt={`${name || "User"} mini avatar`}
                       loading="lazy"
                       onError={(e) => {
