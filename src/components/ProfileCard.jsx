@@ -296,22 +296,24 @@ const ProfileCardComponent = ({
           <div className="pc-shine" />
           <div className="pc-glare" />
           <div className="pc-content pc-avatar-content">
-            <img
+           <img
   className="avatar"
-  src={process.env.PUBLIC_URL + "/avatar.jpg"}
+  src="/my-profile-card/avatar.jpg"
   alt={`${name || "User"} avatar`}
   loading="lazy"
 />
+
 
             {showUserInfo && (
               <div className="pc-user-info">
                 <div className="pc-user-details">
                   <div className="pc-mini-avatar">
                     <img
-  src={process.env.PUBLIC_URL + "/avatar.jpg"}
+  src="/my-profile-card/avatar.jpg"
   alt={`${name || "User"} mini avatar`}
   loading="lazy"
 />
+
 
                   </div>
                   <div className="pc-user-text">
