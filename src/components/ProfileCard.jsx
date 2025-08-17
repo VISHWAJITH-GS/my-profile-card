@@ -297,29 +297,22 @@ const ProfileCardComponent = ({
           <div className="pc-glare" />
           <div className="pc-content pc-avatar-content">
             <img
-              className="avatar"
-              src={process.env.PUBLIC_URL + "/avatar.jpg"}
-              alt={`${name || "User"} avatar`}
-              loading="lazy"
-              onError={(e) => {
-                const target = e.target;
-                target.style.display = "none";
-              }}
-            />
+  className="avatar"
+  src={process.env.PUBLIC_URL + "/avatar.jpg"}
+  alt={`${name || "User"} avatar`}
+  loading="lazy"
+/>
+
             {showUserInfo && (
               <div className="pc-user-info">
                 <div className="pc-user-details">
                   <div className="pc-mini-avatar">
                     <img
-                      src={process.env.PUBLIC_URL + "/avatar.jpg"}
-                      alt={`${name || "User"} mini avatar`}
-                      loading="lazy"
-                      onError={(e) => {
-                        const target = e.target;
-                        target.style.opacity = "0.5";
-                        target.src = avatarUrl;
-                      }}
-                    />
+  src={process.env.PUBLIC_URL + "/avatar.jpg"}
+  alt={`${name || "User"} mini avatar`}
+  loading="lazy"
+/>
+
                   </div>
                   <div className="pc-user-text">
                     <div className="pc-handle">@{handle}</div>
