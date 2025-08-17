@@ -1,9 +1,10 @@
 {
-  "homepage": "https://vishwajith-gs.github.io/my-profile-card"
+  
 
   "name": "my-profile-card",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vishwajith-gs.github.io/my-profile-card"
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.7.0",
